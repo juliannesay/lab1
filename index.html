@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The GDP of Select International Cities</title>
+
+  <!-- Put your external stylesheet links here -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!--[if IE<9]>
+      <link rel="stylesheet" href="css/style.ie.css">
+  <![endif]-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- You can also place internal styles here;
+             place these within <style> tags -->
+  <style>
+    .leaflet-popup-content p {
+      margin: 0.2em 0;
+    }
+
+    body {
+      background-color: #c4d3c8;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+
+    #map {
+      height: 400px;
+      width: 80%;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    #title {
+  color: rgb(12, 12, 12);
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Gill Sans;
+}
+
+
+    #panel {
+      width: 80%;
+      padding: 20px;
+      text-align: center;
+      line-height: 42px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+    }
+
+    #description {
+      color: #f0f2f3;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .range-slider {
+  width: 50%;
+  max-width: 1=300px; 
+}
+
+
+    .legend {
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .legend b {
+      font-weight: bold;
+    }
+
+    .legend p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Put your initial page content here -->
+  <div id="title">The GDP of Select International Cities</div>
+  <div id="map"></div>
+  <div id="panel">
+    </div>
+    <div id="description"></div>
+    </p>    
+    <b>Source:</b> Data from the Organisation for Economic Co-Operation and Development (OECD).
+    <p>
+        <div id="GDP"></div>
+        <b>What is GDP?:</b> GDP stands for Gross Domestic Product. This is defined as “the total value of goods produced and services provided in a country during one year.”  However, this particular dataset focuses on selected cities and what their GDP would be.
+        <p>
+        <div id="directions"></div>
+        <b>Directions:</b>  To use the application, use the slider to change the year. You can click on the points to view additional information for the point. If you wish to change the basemap, this can be done using the icon in the top right corner of the map.
+        <p>
+  </div>
+
+  <!-- You can also use this space for internal scripts;
+        place these within <script> tags -->
+
+  <!-- Put your external script links here -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

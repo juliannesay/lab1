@@ -1,0 +1,68 @@
+/*Add CSS styles here*/
+
+/* CSS for the legend */
+.legend {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    font-family: Georgia, sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .legend b {
+    font-weight: bold;
+  }
+  
+  .legend p {
+    margin: 5px 0;
+  }
+  
+  #map {
+    height: 400px;
+    width: 80%;
+    display: inline-block;
+  }
+  
+  #panel {
+    width: 16%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 42px;
+  }
+  
+  .leaflet-popup-content p {
+    margin: 0.2em 0;
+  }
+  
+  .range-slider {
+    width: 50%;
+    max-width: 300px; /* Set a maximum width for the slider */
+    margin-top: 10px;
+  }
+  
+  
+  .step {
+    width: 30px;
+  }
+  
+  .step img {
+    max-width: 100%;
+  }
+  
+  
+  #forward {
+    float: right;
+  }
+  
+  #reverse {
+    float: left;
+  }
+
+.body {
+    font-family: Georgia, sans-serif;
+}
+  
